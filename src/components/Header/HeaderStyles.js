@@ -17,7 +17,11 @@ export const Container = styled.div`
     grid-row-gap: 0.5rem;
   }
 `;
-export const Div1 = styled.div`
+export const Span= styled.span`
+  font-size: 2rem;
+`;
+
+export const Logo= styled.div`
   grid-area: 1 / 1 / 2 / 2;
   display: flex;
   flex-direction: row;
@@ -26,7 +30,7 @@ export const Div1 = styled.div`
     grid-area: 1 / 1 / 2 / 3;
   }
 `;
-export const Div2 = styled.div`
+export const Menu = styled.div`
   grid-area: 1 / 2 / 2 / 4;
   display: flex;
   justify-content: space-around;
@@ -34,7 +38,7 @@ export const Div2 = styled.div`
     grid-area: 2 / 2 / 3 / 5;
   }
 `;
-export const Div3 = styled.div`
+export const Social = styled.div`
   grid-area: 1 / 5 / 2 / 6;
   display: flex;
   justify-content: space-around;
